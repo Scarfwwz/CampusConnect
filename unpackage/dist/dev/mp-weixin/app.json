@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/person/person",
+    "pages/login/login",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "校企桥",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {}
+}

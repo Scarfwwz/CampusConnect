@@ -8,7 +8,7 @@
     </view>
   </view>
   <view class="uni-flex uni-row section1">
-    <view class="flex-item text2">密 码：</view>
+    <view class="flex-item text2"> {{password}}</view>
     <view class="flex-item input2">
       <el-input placeholder="请输入内容" v-model="input2"></el-input>
     </view>
@@ -27,7 +27,8 @@ export default {
   data() {
     return {
 		input1: '',
-		input2: ''
+		input2: '',
+		password:"密 码 ："
 	};
   },
 
@@ -46,7 +47,7 @@ export default {
 
 <style scoped lang="css">
 .page {
-  background-image: url('https://ide.code.fun/api/image?token=6571d28cfcfbac0011379ca8&name=c1d62878e715f3f0304ede20ac6ddc42.png');
+  background-image: url('https://ide.code.fun/api/image?token=65725d0dfcfbac001137a3e1&name=4a7f8af900053e9ef5eb1ae3aaf3fd63.png');
   background-position: 0% 0%;
   background-size: 100%, 100%;
   background-repeat: no-repeat;
@@ -55,7 +56,7 @@ export default {
 }
 .section{
 	position: absolute;
-	top: 650rpx;
+	top: 600rpx;
 	left: 50rpx;
 	width: 500rpx;
 	height: 200rpx;
@@ -68,9 +69,15 @@ export default {
 }
 .text1{
 	margin:3px;
+	color: white;
+	font-weight:400;
+	font-size: 120%;
 }
 .text2{
 	margin:8px;
+	color: white;
+	font-weight:400;
+	font-size: 120%;
 }
 .button1{
 	position: absolute;

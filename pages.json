@@ -1,6 +1,24 @@
 {
 	"pages": [//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
+			"path": "pages/requirementsGet/requirementsGet",
+			"style": {
+				"navigationBarTitleText": "校企桥"
+			}
+		},
+		{
+			"path": "pages/appointmentBook/appointmentBook",
+			"style": {
+				"navigationBarTitleText": "校企桥"
+			}
+		},
+		{
+			"path": "pages/pusblishInfo/publishInfo",
+			"style": {
+				"navigationBarTitleText": "校企桥"
+			}
+		},
+		{
 			"path": "pages/person/person",
 			"style": {
 				"navigationBarTitleText": "校企桥"

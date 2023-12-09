@@ -3,7 +3,7 @@
 		<view class="l-top">
 		    <view class="l-red">
 		        <button  class="l-red" >
-		            <image class="user-pic" src="../../static/hr.png"></image>
+		            <image class="user-pic" src="../../static/girl.png"></image>
 		            <view class="user-name">金山软件招聘经理</view>
 		        </button>
 		    </view>
@@ -11,47 +11,61 @@
 		<view class="c-row">
 		    <view class="c-bottom">
 		        <view  class="c-cxsc">
-		            <image class="cxsc-img" src="/static/icon_home.png"></image>
+		            <image class="cxsc-img" src="/static/star.png"></image>
 		            <view class="cxsc-txt">
-		                <view>车型收藏</view>
-		                <view class="txt-gray">意向车型</view>
+		                <view>我的收藏</view>
+		                <view class="txt-gray">就业需求帖</view>
 		            </view>
 		        </view>
 		        <view  class="c-pybxc">
-		            <image class="bxc-img" src="/static/icon_person.png"></image>
+		            <image class="bxc-img" src="/static/info.png"></image>
 		            <view class="bxc-txt">
-		                <view>朋友帮选车</view>
-		                <view class="txt-gray">发起投票</view>
+		                <view>我的信息</view>
+		                <view class="txt-gray">个人绑定</view>
 		            </view>
 		        </view>
 		    </view>
 		</view>
 		<view class="f">
 		    <view  class="f-row">
-		        <image class="f-img" src="/static/icon_person.png"></image>
-		        <view class="f-txt">询价记录</view>
+		        <image class="f-img" src="/static/record.png"></image>
+		        <view class="f-txt">预约记录</view>
 		        <view class="f-right tip-right"></view>
 		    </view>
 		    <view  class="f-row">
-		        <image class="f-img" src="/static/icon_person.png"></image>
+		        <image class="f-img" src="/static/advice.png"></image>
 		        <view class="f-txt">意见反馈</view>
 		        <view class="f-right tip-right"></view>
 		    </view>
 		    <view  class="f-row">
-		        <image class="f-img" src="/static/icon_person.png"></image>
+		        <image class="f-img" src="/static/aboutus.png"></image>
 		        <view class="f-txt">关于我们</view>
 		        <view class="f-right tip-right"></view>
 		    </view>
+			<view  class="f-row">
+			    <image class="f-img" src="/static/logout.png"></image>
+			    <view class="f-txt">退出登录</view>
+			    <view class="f-right tip-right"></view>
+			</view>
 		</view>
-		<view class="b">
-		    <Text >退出登录</Text>
-		</view>
-		
+		<tabbar1></tabbar1>
 	</div>
 
 </template>
 
 <script>
+	import tabbar1 from '../../components/tabbar1.vue'
+	export default {
+	  components: {
+		  tabbar1
+	  },
+	  props: {},
+	  data() {
+	    return {};
+	  },
+	
+	  methods: {},
+	};
 </script>
 
 <style>

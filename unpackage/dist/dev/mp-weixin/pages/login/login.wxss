@@ -1,0 +1,42 @@
+
+.page.data-v-b237504c {
+  background-image: url('https://ide.code.fun/api/image?token=65725d0dfcfbac001137a3e1&name=4a7f8af900053e9ef5eb1ae3aaf3fd63.png');
+  background-position: 0% 0%;
+  background-size: 100%, 100%;
+  background-repeat: no-repeat;
+  width: 750rpx;
+  height: 1623.08rpx;
+}
+.section.data-v-b237504c{
+	position: absolute;
+	top: 600rpx;
+	left: 50rpx;
+	width: 500rpx;
+	height: 200rpx;
+	border: 0;
+}
+.section1.data-v-b237504c{
+	display: flex; /* 使用 Flexbox 布局 */
+	justify-content: space-between; /* 水平分布，两侧对齐 */
+	margin:20px;
+}
+.text1.data-v-b237504c{
+	margin:3px;
+	color: white;
+	font-weight:400;
+	font-size: 120%;
+}
+.text2.data-v-b237504c{
+	margin:8px;
+	color: white;
+	font-weight:400;
+	font-size: 120%;
+}
+.button1.data-v-b237504c{
+	position: absolute;
+	top: 950rpx;
+	left: 300rpx;
+	width: 500rpx;
+	height: 200rpx;
+}
+

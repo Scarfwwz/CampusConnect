@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "校企桥",
+  "usingComponents": {
+    "tabbar1": "/components/tabbar1"
+  }
+}
